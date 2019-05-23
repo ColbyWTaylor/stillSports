@@ -17,7 +17,9 @@ export class Home extends React.Component {
 				<Nav />
 				<Ad />
 				<Carousel />
-				<Cards />
+				<div className="row">
+					<Cards />
+				</div>
 				<Jumbotron />
 				<Footer />
 			</div>
